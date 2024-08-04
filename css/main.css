@@ -1,0 +1,90 @@
+/* Base styles */
+body {
+  background-color: #f0f2f5;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Container styles */
+.container {
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Header styles */
+.head {
+  border-radius: 10px 10px 0 0;
+  color: white;
+  text-align: center;
+  background-color: #34454f;
+  margin: -20px -20px 20px -20px;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Box styles */
+.container .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.container .box:last-child {
+  border-bottom: none;
+}
+
+/* Image styles */
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Text styles */
+.text {
+  flex: 1;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Icon styles */
+i {
+  color: #34454f;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Input styles */
+input {
+  max-width: 120px;
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: right;
+}
+
+input:focus {
+  outline: none;
+  border-color: #34454f;
+  box-shadow: 0 0 5px rgba(52, 69, 79, 0.5);
+}
+
+/* Amount styles */
+.amount {
+  font-size: 18px;
+  color: #333;
+  min-width: 120px;
+  text-align: right;
+}
